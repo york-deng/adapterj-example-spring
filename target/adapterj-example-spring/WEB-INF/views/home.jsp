@@ -1,0 +1,29 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" %>
+<html>
+<head>
+	<title>spring-mvc-showcase</title>
+	<meta name="_csrf" content="${_csrf.token}"/>
+	<meta name="_csrf_header" content="${_csrf.headerName}"/>
+</head>
+<body>
+<h1><a href="<c:url value="/" />">spring-mvc-showcase</a></h1>
+<p>Recommended: Using a Web Developer tool such a Firebug to inspect the client/server interaction</p>
+<div>
+	<div id="simple">
+		<h2>Simple</h2>
+		<p>
+			See the <code>org.springframework.samples.mvc.simple</code> package for the @Controller code
+		</p>
+		<ul>
+			<li>
+				<a id="simpleLink" class="textLink" href="<c:url value="/simple" />">GET /simple</a>
+			</li>
+			<li>
+				<a id="simpleRevisited" class="textLink" href="<c:url value="/simple/revisited" />">GET /simple/revisited</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
