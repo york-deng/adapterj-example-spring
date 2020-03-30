@@ -9,10 +9,8 @@ An example based on Standard HTML Template (without any special syntax, tags, at
 * Maven 3.0+
 
 ## Guide 
-1. Download adapterj-example-spring   
-2. Unpack adapterj-example-spring-master.zip   
-3. Run these two Command Lines as below   
-4. Open the [URL](http://localhost:8080/adapterj-example-spring) with a web browser   
+1. Run these two Command Lines as below   
+2. Open the [URL](http://localhost:8080/adapterj-example-spring) with a web browser   
 
 ## Command Lines
 ```
