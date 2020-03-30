@@ -7,13 +7,18 @@
 * Maven 3.0+
 
 ## 使用方法 
-1. 下载 adapterj-example-spring   
-2. 解压 adapterj-example-spring-master.zip   
-3. 运行以下命令行   
-4. 在浏览器中打开[演示地址](http://localhost:8080/adapterj-example-spring)   
+1. 运行以下命令行   
+2. 在浏览器中打开[演示地址](http://localhost:8080/adapterj-example-spring)   
 
 ## 命令行
 ```
+git clone https://github.com/york-deng/adapterj.git
+cd adapterj
+mvn clean deploy
+
+cd ..
+
+git clone https://github.com/york-deng/adapterj-example-spring.git
 cd adapterj-example-spring   
 mvn jetty:run   
 ```
