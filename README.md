@@ -16,6 +16,13 @@ An example based on Standard HTML Template (without any special syntax, tags, at
 
 ## Command Lines
 ```
+git clone https://github.com/york-deng/adapterj.git
+cd adapterj
+mvn clean deploy
+
+cd ..
+
+git clone https://github.com/york-deng/adapterj-example-spring.git
 cd adapterj-example-spring   
 mvn jetty:run   
 ```
