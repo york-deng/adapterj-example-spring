@@ -9,7 +9,7 @@ An example based on Standard HTML Template (without any special syntax, tags, at
 * Maven 3.0+
 
 ## Guide 
-1. Run these two Command Lines as below   
+1. Run these Command Lines as below   
 2. Open the [URL](http://localhost:8080/adapterj-example-spring) with a web browser   
 
 ## Command Lines
